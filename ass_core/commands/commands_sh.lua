@@ -1,13 +1,9 @@
 local COMMAND 		= {}
 COMMAND.__index 	= COMMAND
 
-local function formatname(n)
-	return n:lower():gsub(' ', '')
-end
-
 function ass.cmd.Create(name, callback)
 	local c = {
-		Name  		= formatname(name),
+		Name  		= ass.FormatName(name),
 		NiceName 	= name,
 		Args		= {},
 		Weight	 	= 0,

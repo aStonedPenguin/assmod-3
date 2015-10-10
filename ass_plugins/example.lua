@@ -1,1 +1,4 @@
-ass.Print 'Nothing to see here!'
+ass.plug.Create 'Example'
+	:SetAuthor 'aStonedPenguin'
+	:SetVersion '1.0'
+
